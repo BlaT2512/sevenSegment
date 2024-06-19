@@ -50,7 +50,7 @@ Segment::Segment(int sega, int segb, int segc, int segd, int sege, int segf, int
   _cathode = cathode;
 }
 
-Segment::Segment(int sega1, int sega2, int segb, int segc, int segd1, int segd2, int sege, int segf, int segg1, int segg2, int segh, int segi, int segj, int segk, int segl, int segm, bool cathode = true){  // 16seg, no dp
+Segment::Segment(int sega1, int sega2, int segb, int segc, int segd1, int segd2, int sege, int segf, int segg1, int segg2, int segh, int segi, int segj, int segk, int segl, int segm, bool cathode){  // 16seg, no dp
   pinMode(sega1, OUTPUT);
   pinMode(sega2, OUTPUT);
   pinMode(segb, OUTPUT);
@@ -87,7 +87,7 @@ Segment::Segment(int sega1, int sega2, int segb, int segc, int segd1, int segd2,
   _cathode = cathode;
 }
 
-Segment::Segment(int sega1, int sega2, int segb, int segc, int segd1, int segd2, int sege, int segf, int segg1, int segg2, int segh, int segi, int segj, int segk, int segl, int segm, int segdp, bool cathode = true){  // 16seg, dp
+Segment::Segment(int sega1, int sega2, int segb, int segc, int segd1, int segd2, int sege, int segf, int segg1, int segg2, int segh, int segi, int segj, int segk, int segl, int segm, int segdp, bool cathode){  // 16seg, dp
   pinMode(sega1, OUTPUT);
   pinMode(sega2, OUTPUT);
   pinMode(segb, OUTPUT);
